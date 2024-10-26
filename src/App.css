@@ -57,6 +57,11 @@ body {
   background-color: #333;
   padding: 10px 20px;
   color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  
 }
 
 .navbar-left h1 {
@@ -88,10 +93,14 @@ body {
 .navbar-right a + a {
   margin-left: 15px;
 }
+.pro{
+  padding-top: 60px;
+}
 .prosection
 {
   display: flex;
   background-color: white;
+  
 
 }
 .imgbox
@@ -134,16 +143,20 @@ body {
   height: 50px;
   border-radius: 10px;
   margin: 5px;
+  padding-top: 90px;
  
   
   
 }
+
 .pagesection
 {
   display: grid;
   grid-template-columns: repeat(4,300px);
   gap: 50px;
+  
 }
+
 .pageimage
 {
   width: 250px;
@@ -168,6 +181,7 @@ body {
 .ind-page
 {
   display: flex;
+  padding-top: 70px;
 }
 .ind-details
 {
@@ -183,6 +197,7 @@ body {
 .fullpage
 {
   display: flex;
+  padding-top: 70px;
 }
 .pro-selected
 {

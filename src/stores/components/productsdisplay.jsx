@@ -2,6 +2,7 @@ import React from 'react'
 const Productsdisplay = (props) => {  
   return (
     <>
+    <div className='pro'>
     <div className='protitle'>
         <h2>{props.heading}</h2>
     </div>
@@ -16,6 +17,7 @@ const Productsdisplay = (props) => {
                 )
             })
         }
+    </div>
     </div>
     </>
   )
