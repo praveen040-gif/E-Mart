@@ -10,7 +10,8 @@ const Routingpage = (props) => {
   {
     if(selectedproduct.includes(mango))
     {
-      setselectedproduct(selectedproduct.filter(item => item !==mango))
+      setselectedproduct(selectedproduct.filter((item) => item !==mango))
+      console.log("hi")
     }
     else{
       setselectedproduct([...selectedproduct,mango])
@@ -19,7 +20,7 @@ const Routingpage = (props) => {
   }
   const filteredProduct=selectedproduct.length===0?
         props.routing:props.routing.filter((orange)=>selectedproduct.includes(orange.brand))
-      console.log(filteredProduct)
+      
   
   return (
     <>
